@@ -1,35 +1,221 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Zumba with Emma</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header class="hero">
-    <h1>Zumba with Emma</h1>
-    <p>Fun, friendly Zumba classes for all levels.</p>
-    <a class="button" href="#contact">Get in touch</a>
-  </header>
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <main>
-    <section>
-      <h2>About</h2>
-      <p>
-        Welcome to my Zumba classes. Come along, move, have fun, and enjoy a great workout in a welcoming space.
-      </p>
-    </section>
+    <!-- TODO: Replace placeholders once the real class name, instructor name, and location are confirmed. -->
+    <title>[CLASS_NAME] | Zumba Classes with [MUM_NAME]</title>
+    <meta name="description" content="[CLASS_NAME] offers friendly Zumba classes with [MUM_NAME] in [LOCATION]. Message on WhatsApp to ask questions or request class details.">
+    <meta name="robots" content="index, follow">
 
-    <section>
-      <h2>Classes</h2>
-      <p>Class times and locations coming soon.</p>
-    </section>
+    <!-- TODO: Replace [WEBSITE_URL] after the site is deployed or a custom domain is connected. -->
+    <link rel="canonical" href="[WEBSITE_URL]">
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: hello@example.com</p>
-    </section>
-  </main>
-</body>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="[CLASS_NAME] | Zumba Classes with [MUM_NAME]">
+    <meta property="og:description" content="Friendly Zumba classes in [LOCATION]. Message first on WhatsApp to ask questions or request class details.">
+    <meta property="og:url" content="[WEBSITE_URL]">
+    <meta property="og:image" content="assets/images/instructor-placeholder.svg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <!-- TODO: Replace with the confirmed class or website name. -->
+        <a class="site-logo" href="#top" aria-label="[CLASS_NAME] home">[CLASS_NAME]</a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#expect">What to expect</a>
+          <a href="#classes">Class details</a>
+          <a href="#faq">FAQ</a>
+          <a class="nav-contact" href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section id="top" class="hero section-band">
+        <div class="content-width hero-content">
+          <p class="eyebrow">Friendly local Zumba classes</p>
+          <!-- TODO: Replace [CLASS_NAME] and confirm the final headline with your mum. -->
+          <h1>[CLASS_NAME]</h1>
+          <p class="hero-copy">
+            Move to great music, build confidence, and enjoy a welcoming class with [MUM_NAME].
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <!-- TODO: Replace [WHATSAPP_BUSINESS_NUMBER] with the WhatsApp Business number in international format, without + or spaces. -->
+            <a class="button button-primary" href="https://wa.me/[WHATSAPP_BUSINESS_NUMBER]?text=Hello%2C%20I%27d%20like%20to%20ask%20about%20%5BCLASS_NAME%5D%20Zumba%20classes.">
+              Message on WhatsApp
+            </a>
+            <a class="button button-secondary" href="#classes">View class details</a>
+          </div>
+          <ul class="quick-details" aria-label="Class summary">
+            <li><span>Where</span>[LOCATION]</li>
+            <li><span>When</span>[DAY_AND_TIME]</li>
+            <li><span>Cost</span>[PRICE]</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="content-width two-column">
+          <div>
+            <p class="eyebrow">About the instructor</p>
+            <h2>Meet [MUM_NAME]</h2>
+            <!-- TODO: Replace this with your mum's approved short introduction. -->
+            <p>
+              [MUM_NAME] runs friendly Zumba classes for people who want to move, enjoy music,
+              and feel welcome. This space will include her introduction, teaching style, and
+              anything she wants new visitors to know before joining.
+            </p>
+          </div>
+          <figure class="photo-placeholder">
+            <!-- TODO: Replace this placeholder image with an approved instructor photo. Update the alt text to describe the real photo. -->
+            <img src="assets/images/instructor-placeholder.svg" alt="Placeholder for a photo of [MUM_NAME]">
+            <figcaption>Instructor photo placeholder</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="expect" class="section section-tint">
+        <div class="content-width">
+          <p class="eyebrow">What to expect</p>
+          <h2>Fun movement, music, and a friendly group</h2>
+          <!-- TODO: Check this wording with your mum before publishing. -->
+          <p class="section-lead">
+            Zumba is a music-led fitness class where you can follow the rhythm, move at your own
+            pace, and enjoy being part of a welcoming group. Beginners are welcome, and the focus
+            is on fun, confidence, movement, and feeling comfortable in the room.
+          </p>
+          <ul class="feature-list">
+            <li>Easy-to-follow routines with upbeat music.</li>
+            <li>A friendly social class where people can join at their own level.</li>
+            <li>No dance experience needed before coming along.</li>
+            <li>Simple guidance on what to wear and what to bring.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="classes" class="section">
+        <div class="content-width">
+          <p class="eyebrow">Class details</p>
+          <h2>Details to confirm</h2>
+          <div class="detail-grid">
+            <div>
+              <h3>Location</h3>
+              <!-- TODO: Replace with the venue name, address, and any room details. -->
+              <p>[LOCATION]</p>
+            </div>
+            <div>
+              <h3>Day and time</h3>
+              <!-- TODO: Replace with the confirmed day, start time, end time, and any seasonal changes. -->
+              <p>[DAY_AND_TIME]</p>
+            </div>
+            <div>
+              <h3>Price</h3>
+              <!-- TODO: Replace with the class price, payment method, and any trial-session wording. -->
+              <p>[PRICE]</p>
+            </div>
+            <div>
+              <h3>What to bring</h3>
+              <!-- TODO: Confirm what your mum wants people to bring. -->
+              <p>[WHAT_TO_BRING]</p>
+            </div>
+            <div>
+              <h3>Booking</h3>
+              <!-- TODO: Confirm whether people need to book before attending. -->
+              <p>[BOOKING_DETAILS]</p>
+            </div>
+            <div>
+              <h3>Suitability</h3>
+              <!-- TODO: Confirm any age, access, or safety notes your mum wants to include. -->
+              <p>[SUITABILITY_NOTES]</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section section-contact">
+        <div class="content-width contact-layout">
+          <div>
+            <p class="eyebrow">Join or ask a question</p>
+            <h2>Message first, then [MUM_NAME] can share the right details</h2>
+            <p>
+              Send a WhatsApp message to ask about the class, check whether booking is needed, or
+              request to join the WhatsApp group. The group invite link is not published publicly.
+            </p>
+          </div>
+          <div class="contact-actions" aria-label="Contact options">
+            <!-- TODO: Replace [WHATSAPP_BUSINESS_NUMBER] with the WhatsApp Business number in international format, without + or spaces. -->
+            <a class="button button-primary" href="https://wa.me/[WHATSAPP_BUSINESS_NUMBER]?text=Hello%2C%20I%27d%20like%20to%20ask%20about%20%5BCLASS_NAME%5D%20Zumba%20classes.">
+              Message on WhatsApp
+            </a>
+            <!-- TODO: Remove this phone link if your mum wants WhatsApp only. -->
+            <a class="button button-secondary" href="tel:[PHONE_NUMBER]">Call [PHONE_NUMBER]</a>
+            <!-- TODO: Remove this email link if your mum does not want an email address shown. -->
+            <a class="button button-secondary" href="mailto:[EMAIL_ADDRESS]">Email [EMAIL_ADDRESS]</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="section">
+        <div class="content-width">
+          <p class="eyebrow">FAQ</p>
+          <h2>Common questions</h2>
+          <div class="faq-list">
+            <details>
+              <summary>Do I need dance experience?</summary>
+              <!-- TODO: Replace with your mum's answer. -->
+              <p>No dance experience is needed. [MUM_NAME] can confirm what first-timers should expect.</p>
+            </details>
+            <details>
+              <summary>What should I wear?</summary>
+              <!-- TODO: Replace with clothing and footwear guidance. -->
+              <p>[WHAT_TO_WEAR]</p>
+            </details>
+            <details>
+              <summary>Can beginners join?</summary>
+              <!-- TODO: Replace with beginner guidance. -->
+              <p>Beginners are welcome. [MUM_NAME] can share any helpful first-class details by WhatsApp.</p>
+            </details>
+            <details>
+              <summary>How do I join the WhatsApp group?</summary>
+              <p>Message [MUM_NAME] first. She can then share class details or the group invite manually if appropriate.</p>
+            </details>
+            <details>
+              <summary>Is there parking?</summary>
+              <!-- TODO: Replace with venue parking and accessibility details. -->
+              <p>[PARKING_DETAILS]</p>
+            </details>
+            <details>
+              <summary>Do I need to book?</summary>
+              <!-- TODO: Replace with booking guidance. -->
+              <p>[BOOKING_DETAILS]</p>
+            </details>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="content-width footer-inner">
+        <!-- TODO: Replace [YEAR] after confirming the launch date. -->
+        <p>&copy; [YEAR] [CLASS_NAME]. All rights reserved.</p>
+        <p class="privacy-note">
+          Privacy: contact details are used only to reply about Zumba classes. Do not publish the
+          WhatsApp group invite link publicly.
+        </p>
+        <nav aria-label="Footer contact links">
+          <a href="https://wa.me/[WHATSAPP_BUSINESS_NUMBER]">WhatsApp</a>
+          <a href="tel:[PHONE_NUMBER]">Phone</a>
+          <a href="mailto:[EMAIL_ADDRESS]">Email</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
 </html>

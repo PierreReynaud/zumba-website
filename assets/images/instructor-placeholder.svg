@@ -1,0 +1,12 @@
+<svg width="900" height="700" viewBox="0 0 900 700" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Instructor photo placeholder</title>
+  <desc id="desc">A warm abstract placeholder to replace with an approved instructor photo.</desc>
+  <rect width="900" height="700" fill="#fffaf5"/>
+  <rect x="36" y="36" width="828" height="628" rx="28" fill="#f4f8f3" stroke="#ded7cf" stroke-width="4"/>
+  <circle cx="444" cy="252" r="88" fill="#087c7f"/>
+  <path d="M236 558C262 432 337 365 445 365C553 365 628 432 654 558" fill="#c73561"/>
+  <path d="M221 238C283 146 359 100 449 100C539 100 615 146 677 238" stroke="#f1b63b" stroke-width="28" stroke-linecap="round"/>
+  <path d="M194 316C260 274 315 252 360 252" stroke="#c73561" stroke-width="24" stroke-linecap="round"/>
+  <path d="M706 316C640 274 585 252 540 252" stroke="#087c7f" stroke-width="24" stroke-linecap="round"/>
+  <rect x="284" y="590" width="332" height="18" rx="9" fill="#ded7cf"/>
+</svg>
