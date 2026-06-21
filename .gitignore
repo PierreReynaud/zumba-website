@@ -1,15 +1,10 @@
+# System files
 .DS_Store
 Thumbs.db
-desktop.ini
 
-.env
-.env.*
-!.env.example
+# Local editor files
+.vscode/
+.idea/
 
-.wrangler/
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
+# Logs
 *.log
