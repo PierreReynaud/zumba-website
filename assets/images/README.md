@@ -7,7 +7,8 @@ Place approved website images in this folder.
 - `mum-work-selection/web-ready/`: optimised session photographs supplied for review. The page uses a small, varied selection rather than the complete set.
 - `online/undraw-personal-training.svg`: free unDraw artwork used as a visual cue for controlled movement. It is illustrative only and does not show a hypopressive position.
 - `online/undraw-yoga.svg`: free unDraw artwork used as a visual cue for posture and finding a clear position.
-- `online/undraw-relaxing-at-home.svg`: free unDraw artwork used as a visual cue for calm breathing and manageable pacing.
+- `online/undraw-meditation.svg`: free unDraw artwork used as a visual cue for calm breathing and manageable pacing.
+- `online/undraw-a-moment-to-relax.svg`: free unDraw artwork used as a small, calm cue beside the final awareness question.
 - `online/undraw-book-reading.svg`: free unDraw artwork used for the pathway step about learning the basics.
 - `online/undraw-check-boxes.svg`: free unDraw artwork used for the pathway step about checking personal suitability.
 - `online/undraw-medical-care.svg`: free unDraw artwork used for the pathway step about seeking healthcare advice when relevant.

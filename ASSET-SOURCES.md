@@ -10,7 +10,7 @@ These are the online assets currently copied into `assets/images/online/`. They 
 - Licence: unDraw's current licence permits free personal and commercial use without attribution, subject to its restrictions: https://undraw.co/license
 - Intended use: a visual cue for controlled movement. It is not a picture of a hypopressive exercise.
 
-## unDraw — Posture and breathing
+## unDraw — Posture and breathing cues
 
 ### Yoga
 
@@ -20,13 +20,21 @@ These are the online assets currently copied into `assets/images/online/`. They 
 - Licence: unDraw's current licence permits free personal and commercial use without attribution, subject to its restrictions: https://undraw.co/license
 - Intended use: a visual cue for finding a clear, understood position. It is not a hypopressive instruction.
 
-### Relaxing at home
+### Meditation
 
-- Local file: `assets/images/online/undraw-relaxing-at-home.svg`
-- Source page: https://undraw.co/illustration/relaxing-at-home_qta9
+- Local file: `assets/images/online/undraw-meditation.svg`
+- Source page: https://undraw.co/illustrations/5
 - Creator: Katerina Limpitsouni / unDraw
 - Licence: unDraw's current licence permits free personal and commercial use without attribution, subject to its restrictions: https://undraw.co/license
-- Intended use: a visual cue for calm breathing and manageable pacing. It is not a breathing instruction.
+- Intended use: a visual cue for calm breathing and manageable pacing. It is not a breathing instruction. The page also uses it as a small cue beside the second awareness question.
+
+### A moment to relax
+
+- Local file: `assets/images/online/undraw-a-moment-to-relax.svg`
+- Source page: https://undraw.co/illustrations/23
+- Creator: Katerina Limpitsouni / unDraw
+- Licence: unDraw's current licence permits free personal and commercial use without attribution, subject to its restrictions: https://undraw.co/license
+- Intended use: a small, calm visual cue beside the final awareness question. It is not a medical illustration.
 
 ## unDraw — Pathway steps
 
@@ -53,6 +61,7 @@ These are the online assets currently copied into `assets/images/online/`. They 
 - Creator: Katerina Limpitsouni / unDraw
 - Licence: unDraw's current licence permits free personal and commercial use without attribution, subject to its restrictions: https://undraw.co/license
 - Intended use: the pathway step for seeking healthcare advice when relevant. It is not a clinical assessment.
+- Also used as a small, general care cue beside the third awareness question. It is not a clinical assessment.
 
 ### Booking
 
