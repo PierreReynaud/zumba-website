@@ -334,7 +334,6 @@ li {
 }
 
 .hero-figure,
-.practice-visual,
 .method-figure {
   min-width: 0;
   margin: 0;
@@ -397,15 +396,6 @@ li {
   font-size: 1.05rem;
 }
 
-.photo-permission-note {
-  color: #6a5f59;
-  font-size: 0.84rem;
-}
-
-.hero-figure .photo-permission-note {
-  color: #f2cdbb;
-}
-
 .button {
   border: 2px solid transparent;
   padding: 0.78rem 1.1rem;
@@ -441,14 +431,8 @@ li {
   border-top: 1px solid rgba(255, 255, 255, 0.42);
 }
 
-.practice-layout {
-  display: grid;
-  grid-template-columns: minmax(220px, 0.72fr) minmax(0, 1.28fr);
-  gap: clamp(1.5rem, 5vw, 4rem);
-  align-items: center;
-}
-
 .practice-intro {
+  max-width: 680px;
   min-width: 0;
 }
 
@@ -469,30 +453,6 @@ li {
   font-size: 0.98rem;
 }
 
-.practice-visual {
-  padding: 0.9rem 1rem 0.75rem;
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  border-radius: 1.25rem 1.25rem 3rem 1.25rem;
-  background: var(--paper);
-}
-
-.practice-visual img {
-  width: 100%;
-}
-
-.practice-visual figcaption {
-  margin: 0.3rem 0 0;
-  color: var(--muted);
-  font-size: 0.85rem;
-}
-
-.practice-source-link {
-  display: inline-block;
-  margin-top: 0.15rem;
-  color: var(--accent);
-  font-weight: 800;
-}
-
 .practice-list,
 .session-steps {
   margin: 0;
@@ -508,15 +468,13 @@ li {
 }
 
 .practice-list li {
-  display: flex;
-  gap: 0.8rem;
+  display: grid;
+  grid-template-rows: auto 1fr;
   min-width: 0;
-  padding: 0.75rem 1rem 0.75rem 0;
-  border-right: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-.practice-list li:last-child {
-  border-right: 0;
+  padding: 0.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 1rem 1rem 2.5rem 1rem;
+  background: rgba(255, 255, 255, 0.08);
 }
 
 .practice-list h3,
@@ -530,11 +488,35 @@ li {
   font-size: 0.98rem;
 }
 
+.practice-card-image {
+  width: 100%;
+  height: 7rem;
+  padding: 0.35rem;
+  object-fit: contain;
+  border-radius: 0.7rem 0.7rem 1.75rem 0.7rem;
+  background: var(--paper);
+}
+
+.practice-card-content {
+  padding-top: 0.85rem;
+}
+
+.practice-card-heading {
+  display: flex;
+  gap: 0.65rem;
+  align-items: center;
+  margin-bottom: 0.55rem;
+}
+
+.practice-card-heading h3 {
+  margin-bottom: 0;
+}
+
 .practice-index {
   display: grid;
   flex: 0 0 auto;
-  width: 2.65rem;
-  height: 2.65rem;
+  width: 2.2rem;
+  height: 2.2rem;
   place-items: center;
   border: 1px solid rgba(255, 255, 255, 0.55);
   border-radius: 50%;
@@ -542,6 +524,17 @@ li {
   font-size: 0.78rem;
   font-weight: 900;
   letter-spacing: 0.04em;
+}
+
+.practice-source-note {
+  margin: 1.1rem 0 0;
+  color: #f5eee9;
+  font-size: 0.82rem;
+}
+
+.practice-source-note a {
+  color: #ffd6bd;
+  font-weight: 800;
 }
 
 .step-number {
@@ -724,19 +717,6 @@ li {
   border-radius: 1rem 1rem 2.75rem 1rem;
 }
 
-.recognition-figure figcaption {
-  display: grid;
-  gap: 0.2rem;
-  padding: 0.85rem 0.2rem 0;
-  color: var(--muted);
-  font-size: 0.88rem;
-}
-
-.recognition-figure figcaption strong {
-  color: var(--ink);
-  font-size: 1rem;
-}
-
 .info-card,
 .safety-note {
   min-width: 0;
@@ -868,16 +848,21 @@ li + li {
 }
 
 .safety-pathway li {
-  position: relative;
+  display: grid;
+  grid-template-columns: 3.1rem minmax(0, 1fr);
+  gap: 0.75rem;
   z-index: 1;
   min-width: 0;
-  padding-top: 3.1rem;
+}
+
+.pathway-step-visual {
+  display: grid;
+  gap: 0.45rem;
+  align-content: start;
 }
 
 .pathway-number {
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
   display: grid;
   width: 2.45rem;
   height: 2.45rem;
@@ -887,6 +872,20 @@ li + li {
   background: var(--charcoal);
   color: #ffd6bd;
   font-weight: 900;
+}
+
+.pathway-step-visual img {
+  width: 3.1rem;
+  height: 3.1rem;
+  padding: 0.3rem;
+  object-fit: contain;
+  border-radius: 0.55rem;
+  background: var(--paper);
+}
+
+.pathway-step-copy {
+  min-width: 0;
+  padding-top: 0.15rem;
 }
 
 .safety-pathway h4 {
@@ -987,12 +986,6 @@ li + li {
   padding: 0.75rem 0.15rem 0;
   color: var(--muted);
   font-size: 0.9rem;
-}
-
-.photo-permission-note-dark {
-  margin: 2rem 0 0;
-  color: var(--muted);
-  font-size: 0.84rem;
 }
 
 .about-layout {
@@ -1240,13 +1233,9 @@ li + li {
   }
 
   .safety-pathway li {
-    min-height: 4.5rem;
+    min-height: 0;
     padding-top: 0;
-    padding-left: 3.1rem;
-  }
-
-  .practice-list li:nth-child(2) {
-    border-right: 0;
+    padding-left: 0;
   }
 
   .contact-panel {
@@ -1320,7 +1309,6 @@ li + li {
   }
 
   .hero-layout,
-  .practice-layout,
   .method-layout {
     grid-template-columns: 1fr;
   }
@@ -1329,10 +1317,6 @@ li + li {
     justify-self: stretch;
     width: min(100%, 520px);
     margin-top: 0.5rem;
-  }
-
-  .practice-visual {
-    margin-top: 0.75rem;
   }
 
   .recognition-figure img {
@@ -1369,16 +1353,14 @@ li + li {
     grid-template-columns: 1fr;
   }
 
-  .practice-list li,
-  .practice-list li:nth-child(2) {
-    border-right: 0;
+  .practice-list li {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     padding-bottom: 1rem;
   }
 
   .practice-list li:last-child {
     border-bottom: 0;
-    padding-bottom: 0;
+    padding-bottom: 0.8rem;
   }
 
   .hero-actions .button {

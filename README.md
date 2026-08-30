@@ -29,7 +29,7 @@ Before publishing, confirm:
 - availability and booking process;
 - preferred monitored contact route and expected reply time;
 - cancellation and payment information; and
-- permission to publish every visible person in the session images.
+- permission to publish every visible person in the session images (confirmed for the current photos).
 
 Review the health and suitability wording with the instructor and, where appropriate, a qualified healthcare professional. The symptom-awareness signpost is general information, not a diagnostic checklist, and the external anatomy image should be reviewed for context before publication.
 

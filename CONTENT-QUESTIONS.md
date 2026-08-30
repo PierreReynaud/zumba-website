@@ -15,7 +15,7 @@ Confirm these details with the service owner before publishing the final version
 - [ ] Expected response time
 - [ ] Final public URL
 - [ ] Cancellation and payment information
-- [ ] Confirmed permission to publish every visible person in the images
+- [x] Confirmed permission to publish every visible person in the images
 
 ## Content and safety review
 

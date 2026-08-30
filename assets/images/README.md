@@ -5,7 +5,13 @@ Place approved website images in this folder.
 ## Current selections
 
 - `mum-work-selection/web-ready/`: optimised session photographs supplied for review. The page uses a small, varied selection rather than the complete set.
-- `online/undraw-personal-training.svg`: free unDraw artwork used to communicate guided learning. It is illustrative only and does not show a hypopressive position.
+- `online/undraw-personal-training.svg`: free unDraw artwork used as a visual cue for controlled movement. It is illustrative only and does not show a hypopressive position.
+- `online/undraw-yoga.svg`: free unDraw artwork used as a visual cue for posture and finding a clear position.
+- `online/undraw-relaxing-at-home.svg`: free unDraw artwork used as a visual cue for calm breathing and manageable pacing.
+- `online/undraw-book-reading.svg`: free unDraw artwork used for the pathway step about learning the basics.
+- `online/undraw-check-boxes.svg`: free unDraw artwork used for the pathway step about checking personal suitability.
+- `online/undraw-medical-care.svg`: free unDraw artwork used for the pathway step about seeking healthcare advice when relevant.
+- `online/undraw-booking.svg`: free unDraw artwork used for the pathway step about booking guided training.
 - `online/pexels-thirdman-breathing-pause.jpg`: free Pexels stock photograph used beside the symptom-awareness signpost. It is a calm, illustrative image rather than a demonstration of the method.
 - `online/openstax-pelvic-floor-muscles.jpg`: OpenStax Anatomy and Physiology pelvic-floor diagram, reused from Wikimedia Commons under CC BY 4.0. It is a general anatomy reference, not a diagnosis or an exercise instruction.
 

@@ -8,7 +8,59 @@ These are the online assets currently copied into `assets/images/online/`. They 
 - Source page: https://undraw.co/illustration/personal-training_jq54
 - Creator: Katerina Limpitsouni / unDraw
 - Licence: unDraw's current licence permits free personal and commercial use without attribution, subject to its restrictions: https://undraw.co/license
-- Intended use: a visual cue for guided learning. It is not a picture of a hypopressive exercise.
+- Intended use: a visual cue for controlled movement. It is not a picture of a hypopressive exercise.
+
+## unDraw — Posture and breathing
+
+### Yoga
+
+- Local file: `assets/images/online/undraw-yoga.svg`
+- Source page: https://undraw.co/illustration/yoga_i399
+- Creator: Katerina Limpitsouni / unDraw
+- Licence: unDraw's current licence permits free personal and commercial use without attribution, subject to its restrictions: https://undraw.co/license
+- Intended use: a visual cue for finding a clear, understood position. It is not a hypopressive instruction.
+
+### Relaxing at home
+
+- Local file: `assets/images/online/undraw-relaxing-at-home.svg`
+- Source page: https://undraw.co/illustration/relaxing-at-home_qta9
+- Creator: Katerina Limpitsouni / unDraw
+- Licence: unDraw's current licence permits free personal and commercial use without attribution, subject to its restrictions: https://undraw.co/license
+- Intended use: a visual cue for calm breathing and manageable pacing. It is not a breathing instruction.
+
+## unDraw — Pathway steps
+
+### Book reading
+
+- Local file: `assets/images/online/undraw-book-reading.svg`
+- Source page: https://undraw.co/illustration/book-reading_i0eb
+- Creator: Katerina Limpitsouni / unDraw
+- Licence: unDraw's current licence permits free personal and commercial use without attribution, subject to its restrictions: https://undraw.co/license
+- Intended use: the pathway step for learning the basics.
+
+### Check Boxes
+
+- Local file: `assets/images/online/undraw-check-boxes.svg`
+- Source page: https://undraw.co/illustration/check-boxes_x5fg
+- Creator: Katerina Limpitsouni / unDraw
+- Licence: unDraw's current licence permits free personal and commercial use without attribution, subject to its restrictions: https://undraw.co/license
+- Intended use: the pathway step for checking personal suitability.
+
+### Medical care
+
+- Local file: `assets/images/online/undraw-medical-care.svg`
+- Source page: https://undraw.co/illustration/medical-care_7m9g
+- Creator: Katerina Limpitsouni / unDraw
+- Licence: unDraw's current licence permits free personal and commercial use without attribution, subject to its restrictions: https://undraw.co/license
+- Intended use: the pathway step for seeking healthcare advice when relevant. It is not a clinical assessment.
+
+### Booking
+
+- Local file: `assets/images/online/undraw-booking.svg`
+- Source page: https://undraw.co/illustration/booking_8vl5
+- Creator: Katerina Limpitsouni / unDraw
+- Licence: unDraw's current licence permits free personal and commercial use without attribution, subject to its restrictions: https://undraw.co/license
+- Intended use: the pathway step for booking guided training when the route is confirmed.
 
 ## Pexels — breathing pause
 
