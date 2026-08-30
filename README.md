@@ -1,66 +1,52 @@
-# Pelvic Floor Training Nottinghamshire
+# Hypopressive Pelvic Floor Training Website
 
-A simple static website scaffold for [INSTRUCTOR_NAME]'s hypopressive training.
+A short, accessible static website for hypopressive pelvic-floor training in Nottinghamshire.
 
-The site is designed to stay free to run on Cloudflare Pages. It uses plain HTML and CSS only: no framework, no build step, no database, no booking system, no CMS, and no contact form.
+The site uses plain HTML, CSS and a small progressive-enhancement script for the mobile navigation.
+There is no framework, build step, database, booking system, CMS, contact form or analytics.
 
 ## Files
 
-- `index.html`: page content, SEO placeholders, Open Graph placeholders, and TODO comments.
-- `styles.css`: responsive styling for mobile, tablet, and desktop.
-- `assets/images/`: placeholder image location. Replace placeholders with approved real photos.
-- `CONTENT-QUESTIONS.md`: checklist of details to ask before filling in the website.
+- `index.html`: page structure, copy, metadata and FAQ content.
+- `styles.css`: responsive layout, colour system, focus treatment and reduced-motion support.
+- `script.js`: optional mobile navigation enhancement. The full navigation remains available if JavaScript is unavailable.
+- `assets/images/`: approved session-image selections and sourced online visuals used as illustrative examples.
+- `ASSET-SOURCES.md`: source pages, creators, licence notes and intended use for online assets.
+- `CONTENT-QUESTIONS.md`: information still needed before publication.
 - `PRIVACY-NOTES.md`: practical privacy notes before publishing.
 
-There is no `script.js` because the current scaffold does not need JavaScript.
+## Confirm details before launch
 
-## How To Edit
+The page deliberately omits unconfirmed instructor, business, venue, format, price, availability and contact information. Add only details that have been verified by the service owner.
 
-Open `index.html` and replace obvious placeholders such as:
+Before publishing, confirm:
 
-- `[INSTRUCTOR_NAME]`
-- `[LOCATION]`
-- `[SESSION_FORMAT]`
-- `[DAY_AND_TIME]`
-- `[PRICE]`
-- `[PHONE_NUMBER]`
-- `[EMAIL_ADDRESS]`
-- `[WHATSAPP_BUSINESS_NUMBER]`
-- `[QUALIFICATIONS]`
+- instructor and business name;
+- qualifications and any other credentials to display;
+- town, venue or service area;
+- in-person, online or mixed format;
+- session duration and price;
+- availability and booking process;
+- preferred monitored contact route and expected reply time;
+- cancellation and payment information; and
+- permission to publish every visible person in the session images.
 
-Search for `TODO:` comments in `index.html` before publishing. They mark wording, images, and details that should be checked with the instructor.
+Review the health and suitability wording with the instructor and, where appropriate, a qualified healthcare professional. The symptom-awareness signpost is general information, not a diagnostic checklist, and the external anatomy image should be reviewed for context before publication.
 
-For WhatsApp links, use the WhatsApp Business number in international format without `+`, spaces, or brackets. Replace `[WHATSAPP_BUSINESS_NUMBER]` only after the number is confirmed.
+## Test locally
 
-## Images
+Open `index.html` in a browser or serve the folder with any simple static web server.
 
-Replace `assets/images/instructor-placeholder.svg` with an approved instructor or session photo if one should appear on the site.
+Check the page at 320px, 375px, 390px and a desktop width. Test keyboard focus, the skip link, the mobile menu, every anchor, the native FAQ controls, 200% text resizing, 400% zoom/reflow, forced-colour mode and reduced-motion preferences.
 
-Before using any photos, confirm that every visible person has given permission for the photo to be published.
+Also confirm that no contact control is added until its destination is valid and monitored.
 
-## Test Locally
+## Deploy on Cloudflare Pages
 
-Because this is a static site, you can test it by opening `index.html` in a browser.
+1. Push the repository to GitHub.
+2. In Cloudflare, open **Workers & Pages**.
+3. Create a Pages project and connect the repository.
+4. Use the **None / Static HTML** framework preset.
+5. Leave the build command empty and use `/` as the output directory.
 
-Check:
-
-- Navigation links move to the right page sections.
-- Contact placeholders have been replaced or removed before launch.
-- Text reads clearly on a phone-sized screen.
-- Keyboard focus is visible when tabbing through links.
-- Any health-related wording has been approved before publishing.
-
-## Deploy On Cloudflare Pages
-
-1. Push this repository to GitHub.
-2. In Cloudflare, go to **Workers & Pages**.
-3. Create a Pages project and connect the GitHub repository.
-4. Use these build settings:
-   - Framework preset: **None / Static HTML**
-   - Build command: leave empty
-   - Build output directory: `/`
-5. Deploy the site.
-
-A custom domain can be added later, but it is optional. The free Cloudflare Pages URL is enough to start.
-
-No contact form or database is used. Visitors are directed to phone, email, or WhatsApp placeholders until confirmed contact details are added.
+No deployment or hosting configuration is changed by this repository update.
