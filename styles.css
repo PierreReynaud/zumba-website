@@ -387,7 +387,8 @@ h3 {
 .story-copy p,
 .section-heading p,
 .faq-list p,
-.photo-placeholder figcaption {
+.profile-photo figcaption,
+.photo-card figcaption {
   color: var(--muted);
 }
 
@@ -578,20 +579,49 @@ h3 {
   border: 1px solid var(--line);
 }
 
-.photo-placeholder {
+.profile-photo {
   margin: 0;
 }
 
-.photo-placeholder img {
+.profile-photo img,
+.photo-card img {
   width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #ffffff;
 }
 
-.photo-placeholder figcaption {
+.profile-photo figcaption,
+.photo-card figcaption {
   margin-top: 0.75rem;
   font-size: 0.92rem;
+}
+
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin-top: 3rem;
+}
+
+.photo-card {
+  margin: 0;
+  padding: 0.9rem;
+  background: #ffffff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.photo-card figcaption span {
+  display: block;
+  margin-bottom: 0.15rem;
+  color: var(--orange);
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 .placeholder-line {
@@ -741,6 +771,10 @@ h3 {
     min-height: 420px;
   }
 
+  .photo-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .cta-panel {
     padding: 2rem;
   }
@@ -773,6 +807,10 @@ h3 {
   .visual-panel,
   .benefit-board {
     min-height: 340px;
+  }
+
+  .photo-gallery {
+    grid-template-columns: 1fr;
   }
 
   .button {
